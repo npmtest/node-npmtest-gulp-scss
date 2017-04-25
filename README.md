@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-scss/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-scss/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-scss/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-scss/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-scss/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-scss/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-scss/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-scss/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-scss/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-scss/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-scss/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-scss/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
         "compile": "gulp compile",
         "test": "gulp unit-test integration-test"
     },
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
